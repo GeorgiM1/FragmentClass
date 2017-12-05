@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new Fragment1(), "tab 1");
         adapter.addFragment(new Fragment2(), "tab 2");
         adapter.addFragment(new Fragment3(), "tab 3");
-        adapter.addFragment(new Fragment3(), "tab 4");
+        adapter.addFragment(new Fragment4(), "tab 4");
         pager.setAdapter(adapter);
     }
 }
