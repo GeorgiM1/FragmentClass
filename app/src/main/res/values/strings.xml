@@ -2,4 +2,13 @@
     <string name="app_name">FragmentClass</string>
     <string name="text_1">text 1</string>
     <string name="test_btn_1">test btn 1</string>
+
+    <string name="text_2">text 2</string>
+    <string name="test_btn_2">test btn 2</string>
+
+    <string name="text_3">text 3</string>
+    <string name="test_btn_3">test btn 3</string>
+
+    <string name="text_4">text 4</string>
+    <string name="test_btn_4">test btn 4</string>
 </resources>

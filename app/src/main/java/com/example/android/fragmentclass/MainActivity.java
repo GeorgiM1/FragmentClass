@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
     public void setUpViewPager(ViewPager upViewPager) {
         MyPageAdapter adapter = new MyPageAdapter(this.getSupportFragmentManager());
         adapter.addFragment(new Fragment1(), "tab 1");
+        adapter.addFragment(new Fragment2(), "tab 2");
+        adapter.addFragment(new Fragment3(), "tab 3");
+        adapter.addFragment(new Fragment3(), "tab 4");
         pager.setAdapter(adapter);
     }
 }
